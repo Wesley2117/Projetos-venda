@@ -1,4 +1,3 @@
-// Dados do menu
 const menuItems = {
     lanches: [
         {
@@ -6,42 +5,42 @@ const menuItems = {
             name: "Pastel Tradicional",
             description: "Frango/Misto/Carne/Queijo/Presunto/Sabor Pizza",
             price: 5.00,
-            image: "imagens/pasteis.jpg"
+            image: "./img/Pasteis/pasteltradiicona.jpg"
         },
         {
             id: 2,
             name: "Pastel no Capricho",
             description: "Frango com queijo/Frango com Carne/Frango com Requeijão/Carne com Queijo/Carne com Requeijão/Queijo duplo",
             price: 7.00,
-            image: "imagens/pasteis.jpg"
+            image: "./img/Pasteis/pastelnocaprichop.jpg"
         },
         {
             id: 3,
             name: "Mistão",
             description: "Frango, Carne, Queijo, Presunto, Requeijão",
             price: 10.00,
-            image: "imagens/pasteis.jpg"
+            image: "./img/Pasteis/pastelmistao.jpg"
         },
         {
             id: 4,
             name: "Batata Frita",
             description: "Porção de batata frita crocante",
             price: 17.00,
-            image: "imagens/batata-frita.jpg"
+            image: "./img/Pasteis/batatatfrita.jpg"
         },
         {
             id: 5,
             name: "Batata com Calabresa",
             description: "Batata frita com calabresa fatiada",
             price: 23.00,
-            image: "imagens/batata-frita.jpg"
+            image: "./img/Pasteis/calabresacombatata.jpg"
         },
         {
             id: 6,
             name: "Batata com Bacon e Cheddar",
             description: "Batata frita com bacon crocante e cheddar derretido",
             price: 28.00,
-            image: "imagens/batata-frita.jpg"
+            image: "./img/Pasteis/batatacombacon echedar.jpg"
         }
     ],
     bar: [
@@ -50,28 +49,28 @@ const menuItems = {
             name: "Bisteca Suína",
             description: "Acompanha arroz e farofa",
             price: 25.00,
-            image: "imagens/bisteca.jpg"
+            image: "./img/Almoco/bistecasuina.jpg"
         },
         {
             id: 8,
             name: "Cará Frito",
             description: "Acompanha arroz ou baião, batata frita e farofa",
             price: 22.00,
-            image: "imagens/bisteca.jpg"
+            image: "./img/Almoco/carafrito.jpg"
         },
         {
             id: 9,
             name: "Galinha Caipira",
             description: "Acompanha arroz ou baião, batata frita e pirão",
             price: 28.00,
-            image: "imagens/galinha.jpg"
+            image: "./img/Almoco/galinhacaipira.jpg"
         },
         {
             id: 10,
-            name: "Pastéis Tradicionais",
-            description: "Queijo, Frango, Misto, Presunto, Carne, Pizza",
+            name: "Feijoada Rainha",
+            description: "Acompanha Calabresa, feijão preto, arroz, coentro, eucalipto, farofa.",
             price: 5.00,
-            image: "imagens/pasteis.jpg"
+            image: "./img/Almoco/feijioada.jpg"
         }
     ],
     bebidas: [
@@ -80,42 +79,42 @@ const menuItems = {
             name: "Itaipava Lata",
             description: "Cerveja Itaipava 350ml",
             price: 4.50,
-            image: ""
+            image: "./img/Bebidas/itaiopava.jpg"
         },
         {
             id: 12,
             name: "Skol Lata",
             description: "Cerveja Skol 350ml",
             price: 4.50,
-            image: ""
+            image: "./img/Bebidas/scol.jpg"
         },
         {
             id: 13,
             name: "Heineken 330ml",
             description: "Cerveja Heineken garrafa 330ml",
             price: 8.00,
-            image: ""
+            image: "./img/Bebidas/heinike.jpg"
         },
         {
             id: 14,
             name: "Itaipava 600ml",
             description: "Cerveja Itaipava garrafa 600ml",
             price: 7.00,
-            image: ""
+            image: "./img/Bebidas/itaipava600.jpg"
         },
         {
             id: 15,
             name: "Coca-Cola 2L",
             description: "Refrigerante Coca-Cola 2 litros",
             price: 10.00,
-            image: ""
+            image: "./img/Bebidas/coca.png"
         },
         {
             id: 16,
             name: "Fanta 2L",
             description: "Refrigerante Fanta 2 litros",
             price: 9.00,
-            image: ""
+            image: "./img/Bebidas/fanta.png"
         }
     ]
 };

@@ -39,7 +39,7 @@ header {
 }
 
 .logo-container {
-    width: 150px;
+    width: 100px;
 }
 
 .logo {
@@ -108,7 +108,7 @@ h1, h2, h3 {
 }
 
 .about-image {
-    flex: 1;
+    flex: 0.5;
 }
 
 .about-image img {
